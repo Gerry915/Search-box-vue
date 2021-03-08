@@ -3,10 +3,25 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
-<style lang="scss">
+<script>
+export default {
+  data() {
+    return {
+
+    };
+  },
+};
+</script>
+
+<style>
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
